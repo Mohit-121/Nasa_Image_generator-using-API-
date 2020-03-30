@@ -1,0 +1,91 @@
+body{
+    background: linear-gradient(to right,yellow,cyan);
+}
+h1{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color: aliceblue;
+    margin:10px;
+    border-radius: 100px;
+}
+
+#not-h2{
+    display:inline-block;
+}
+
+#inp{
+    margin-bottom:50px;
+    width:40%;
+    font-size:15px;
+    padding:5px;
+    border-radius:5px;
+    border:0px;
+}
+
+#inp:focus{
+    outline:none;
+}
+
+#btn{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    font-family: monospace;
+    font-size:1.1rem;
+    margin-right:10px;
+    cursor: pointer;
+    font-family:bold;
+}
+
+button:hover {
+    box-shadow: 0px 0px 5px 5px white;
+}
+
+#image-container{
+   display:flex;
+   flex-wrap:wrap;
+   justify-content: space-around;
+}
+
+.images{
+    background-color:rgba(243, 237, 237, 0.726);
+    margin:20px auto;
+    box-shadow: 0px 0px 10px 3px grey;
+    overflow:hidden;
+}
+
+.images:hover{
+    transform: 0.2s ease-in-out;
+    box-shadow: 0px 0px 10px 8px grey;
+    cursor:pointer;
+}
+
+h3{
+    text-align:center;
+    padding:5px;
+}
+
+h4{
+    margin-right:20px;
+    float:right;
+}
+
+p{
+    font-size:20px;
+    line-height: 30px;
+    word-spacing: 7px;
+    padding:30px;
+    font-family:cursive;
+    color:rgb(170, 9, 9);
+    font-weight: bold;
+}
